@@ -34,7 +34,6 @@ function userFlash(btn) {
 function levelUp() {
     userSeq = [];
     level++;
-    maxLevel++;
     h2.innerText = `Level ${level}`;
     let randIdx = Math.floor(Math.random() * 3);
     let randColor = btns[randIdx];
